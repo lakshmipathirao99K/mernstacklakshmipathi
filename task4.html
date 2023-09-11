@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 align="center">Registration Form</h1>
+    <form action="" method="post">
+      <table align="center">
+        <tr>
+          <td><label for="name">Full Name:</label></td>
+          <td><input type="text" id="name" name="name" required /></td>
+        </tr>
+        <tr>
+          <td><label for="username">Username:</label></td>
+          <td><input type="text" id="username" name="username" required /></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password:</label></td>
+          <td>
+            <input type="password" id="password" name="password" required />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="repassword">Re-enter Password:</label></td>
+          <td>
+            <input type="password" id="repassword" name="repassword" required />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="address">Address:</label></td>
+          <td>
+            <textarea
+              id="address"
+              name="address"
+              rows="2"
+              cols="20"
+              required
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="age">Age:</label></td>
+          <td><input type="number" id="age" name="age" required /></td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender:</label></td>
+          <td>
+            <select id="gender" name="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Save" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
